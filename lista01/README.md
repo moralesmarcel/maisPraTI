@@ -14,7 +14,7 @@ Antes de começar, você precisa ter o [Node.js](https://nodejs.org/) instalado 
 
 2. Entre no diretório pertencente a essa _Lista de Exercícios_:
     ```bash
-    cd Lista01
+    cd lista01
     ```
     
 3. Instale a única dependência necessária:
