@@ -26,7 +26,7 @@ Antes de começar, você precisa ter o [Node.js](https://nodejs.org/) instalado 
 
 ## 🛠️ Como executar os arquivos da "Lista de Exercícios 1"
 
-Os arquivos estão localizados na pasta do projeto (Lista01), nomeados de `lista01Ex01.js` até `lista01Ex15.js`.
+Os arquivos estão localizados na pasta do projeto (lista01), nomeados de `lista01Ex01.js` até `lista01Ex15.js`.
 
 1. Para executar qualquer exercício, use o comando:
     ```bash
@@ -35,7 +35,7 @@ Os arquivos estão localizados na pasta do projeto (Lista01), nomeados de `lista
 
 🚨 Substitua `lista01Ex01.js` pelo nome do exercício que deseja testar, como `lista01Ex05.js`, `lista01Ex12.js`, etc.
 
-## 📂 Estrutura dos arquivos da pasta _Lista01_
+## 📂 Estrutura dos arquivos da pasta _lista01_
 ```bash
 /
 ├── lista01Ex01.js      # Exercício 01
