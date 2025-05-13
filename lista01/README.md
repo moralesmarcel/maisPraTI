@@ -9,7 +9,7 @@ Antes de começar, você precisa ter o [Node.js](https://nodejs.org/) instalado 
     ```bash
     git clone -n https://github.com/moralesmarcel/maisPraTI.git
     cd maisPraTI
-    git checkout HEAD Lista01
+    git checkout HEAD lista01
     ```
 
 2. Entre no diretório pertencente a essa _Lista de Exercícios_:
