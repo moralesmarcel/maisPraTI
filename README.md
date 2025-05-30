@@ -14,6 +14,10 @@ Contém imagens utilizadas na documentação do projeto. Atualmente, inclui a im
 
 Contém a _Lista de Exercícios 1 - Estudando as estruturas básicas_, que fazem parte das primeiras atividades práticas do curso. Os arquivos nesta pasta representam o aprendizado inicial sobre lógica de programação e desenvolvimento básico.
 
+### 📁 lista02
+
+Contém a _Lista de Exercícios 2 - Aplicando conceitos intermediários em JS_, que fazem parte das atividades que contemplam operações fundamentais, estruturas de controle, vetores, funções e recursão.
+
 ---
 ## ⚙️ Instalação
 
