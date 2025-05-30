@@ -22,6 +22,7 @@ Contém a _Lista de Exercícios 2 - Aplicando conceitos intermediários em JS_, 
 ## ⚙️ Instalação
 
 A instalação deve seguir as instruções contidas no arquivo _README.md_ localizado em cada pasta do repositório, onde é explicado como clonar apenas a pasta desejada.
+
 Mas se preferirir clonar todo o repositório fique a vontade. Para isto, basta seguir os seguintes passos:
 
 ```bash
