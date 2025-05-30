@@ -1,6 +1,6 @@
-# 📇 Lista de Exercícios 2 - Lista de Exercícios 2 - operações fundamentais, estruturas de controle, vetores, funções e recursão
+# 📇 Lista de Exercícios 2 - Aplicando conceitos intermediários em JS
 
-Esta pasta do repositório foi criada para a entrega da "Lista de Exercícios 2 - operações fundamentais, estruturas de controle, vetores, funções e recursão", desenvolvido em JavaScript com Node.js, onde as tarefas estão nomeadas/numeradas de `lista02Ex01.js` até `lista02Ex09.js`.
+Esta pasta do repositório foi criada para a entrega da "Lista de Exercícios 2 - Aplicando conceitos intermediários em JS", que contempla operações fundamentais, estruturas de controle, vetores, funções e recursão. Foi desenvolvido em JavaScript com Node.js, onde as tarefas estão nomeadas/numeradas de `lista02Ex01.js` até `lista02Ex09.js`.
 
 ## 📋 Pré-requisitos
 
