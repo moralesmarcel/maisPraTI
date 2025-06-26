@@ -1,46 +1,50 @@
 // 05. Debounce - Crie function debounce(fn, delay) que receba uma função fn e um delay em ms, retornando uma nova função que só executa fn se não for chamada novamente dentro do intervalo.
 
-// Importa a biblioteca 'prompt-sync' para permitir entrada de dados pelo terminal
-const prompt = require('prompt-sync')();
+// Importa a biblioteca 'prompt-sync' para permitir que o usuário digite no terminal
+const prompt = require("prompt-sync")();
 
-// Função debounce que controla o tempo entre as execuções
+// Tem a função de evitar que ela seja executada várias vezes seguidas; tem um "delay" para ver se o usuário para de chamar, só então é executada.
 function debounce(fn, delay) {
-    let timeoutId;
+  // Variável que vai guardar o identificador do temporizador
+  let timeoutId;
 
-    return function(...args) {
-        // Se a função for chamada novamente, cancela a execução anterior
-        clearTimeout(timeoutId);
+  // Retorna uma nova função que controla o tempo de execução
+  return function (...args) {
+    // Cancela qualquer execução anterior que ainda não aconteceu
+    clearTimeout(timeoutId);
 
-        // Define um novo temporizador
-        timeoutId = setTimeout(() => {
-            fn(...args); // Executa a função após o tempo sem novas chamadas
-        }, delay);
-    };
+    // Cria um novo temporizador; se não for chamado de novo nesse tempo, a função é executada
+    timeoutId = setTimeout(() => {
+      fn(...args);
+    }, delay);
+  };
 }
 
-// Função que simula uma ação final (ex: busca, envio, processamento)
+// Função que mostra a mensagem digitada, simulando um processamento
 function processarTexto(texto) {
-    console.log(`\nEntrada processada com sucesso: "${texto}"`);
+  console.log(`\nEntrada processada com sucesso: "${texto}"`);
 }
 
-// Criando a função com debounce de 2 segundos
+// Cria uma versão "com tempo de espera" da função "processarTexto", será executada se não for digitado nada por 2 segundos (2000 milissegundos)
 const debouncedFunc = debounce(processarTexto, 2000);
 
-// Mensagem inicial para o usuário
+// Mensagem inicial no terminal
 console.log("***** DIGITE SUAS MENSAGENS *****");
 console.log("Digite um texto e pressione ENTER várias vezes.");
-console.log("A função só será executada se você parar por 2 segundos.\n");
+console.log(
+  "A função só será executada se você parar de digitar por 2 segundos.\n"
+);
 
-// Loop que permite digitar várias mensagens
+// Loop, até o usuario digitar "sair"
 while (true) {
-    const entrada = prompt("Digite algo (ou 'sair' para encerrar): ");
+  const entrada = prompt("Digite algo (ou 'sair' para encerrar): ");
 
-    // Se o usuário quiser sair do programa
-    if (entrada.toLowerCase() === 'sair') {
-        console.log("Encerrando o programa...");
-        break;
-    }
+  // Se o usuário digitar "sair", o programa é encerrado
+  if (entrada.toLowerCase() === "sair") {
+    console.log("Encerrando o programa...");
+    break;
+  }
 
-    // Chama a função com debounce
-    debouncedFunc(entrada);
+  // Chama a função "com espera"
+  debouncedFunc(entrada);
 }
