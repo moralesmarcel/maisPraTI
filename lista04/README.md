@@ -36,7 +36,7 @@ Os arquivos estão localizados na pasta do projeto (lista04).
 ├── perfil.html         # Arquivo HTML5 do exercício
 ├── style.css           # Arquivo CSS3 do exercício
 ├── perfil.jpg          # Foto de Perfil do site 
-├── favicon.ico         # Ícone associado a o site do exercício
+├── favicon.ico         # Ícone associado ao site do exercício
 └── README.md           # Documentação do projeto
 ```
 
