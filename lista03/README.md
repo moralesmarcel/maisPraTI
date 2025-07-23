@@ -36,6 +36,7 @@ Os arquivos estão localizados na pasta do projeto (lista03).
 ├── index.html          # Exercício 01 e 04
 ├── listas.html         # Exercício 02
 ├── feedback.html       # Exercício 03
+├── feedback-style.css  # Exercício 03
 ├── styles.css          # Exercício 01, 04 e 05
 ├── galeria.html        # Exercício 06
 ├── galeria.css         # Exercício 06
