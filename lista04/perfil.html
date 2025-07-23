@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Perfil</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <img src="perfil.jpg" alt="Foto de Perfil" class="foto-perfil" />
+    <h1>Marcel Franz Morales</h1>
+    <p class="slogan">Apenas um nerd apaixonado por tecnologia e inovação.</p>
+  </header>
+
+  <!-- Menu de navegação interno -->
+  <nav>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Sou movido pela criatividade e impulsionado pela paixão pela tecnologia. Editor gráfico, impressor 3D e formado em Análise e Desenvolvimento de Sistemas, mergulho de cabeça em tudo o que faço. Sou marido da Hélen, pai da incrível Alice e do curioso Martin — minhas fontes diárias de inspiração.</p>
+      <p>Mais do que um entusiasta, sou um perfeccionista de alma inquieta, autodidata por natureza, sempre em busca do próximo desafio. Cada projeto que abraço carrega meu compromisso em dar o melhor de mim — porque para mim, excelência não é uma opção, é um caminho.</p>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+          <li>HTML5 / CSS3</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>PHP</li>
+      </ul>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <article>
+        <h3>Amigo Secreto</h3>
+        <p>Projeto simples  feito para o sorteio de Amigo Secreto, ele foi desenvolvido com HTML, CSS e JavaScript. A aplicação permite adicionar nomes à lista, sortear aleatoriamente um amigo e limpar os dados inseridos.</p>
+      </article>
+      <article>
+        <h3>App Bank</h3>
+        <p>Um app desenvolvido em Python que tem como finalidade simular um Terminal Bancário. Onde é possivel simular as seguintes funcionalidade: Realizar Depósitos, Realizar Saques, Solicitar o Extrato, Exibir um menu com essas opções e a opção Sair do App.</p>
+      </article>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <aside>
+    <h2>Redes Sociais</h2>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/moralesmarcel/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+      <li><a href="https://github.com/moralesmarcel"><i class="fab fa-github"></i> GitHub</a></li>
+      <li><a href="https://www.instagram.com/moralesmarcel/"><i class="fab fa-instagram"></i> Instagram</a></li>
+    </ul>
+  </aside>
+
+  <footer>
+    <p>&copy; 2025 Marcel Morales. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
