@@ -18,6 +18,14 @@ Contém a _Lista de Exercícios 1 - Estudando as estruturas básicas_, que fazem
 
 Contém a _Lista de Exercícios 2 - Aplicando conceitos intermediários em JS_, que fazem parte das atividades que contemplam operações fundamentais, estruturas de controle, vetores, funções e recursão.
 
+### 📁 lista03
+
+Contém a _Lista de Exercícios 3 - Desenvolvimento Web Básico_, que fazem parte das atividades que contemplam o aprendizado de linguagens como HTML, CSS.
+
+### 📁 lista04
+
+Contém a _Lista de Exercícios 4 - Página de Perfil Pessoal_, que fazem parte das atividades que contemplam o aprendizado de linguagens como HTML, CSS e Javascript.
+
 ---
 ## ⚙️ Instalação
 
