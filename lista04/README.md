@@ -1,6 +1,6 @@
 # 📇 Lista de Exercícios 4 - Página de Perfil Pessoal
 
-Esta pasta do repositório foi criada para a entrega da "Lista de Exercícios 4 - Página de Perfil Pessoal", desenvolvido em HTML5 e CSS3.
+Esta pasta do repositório foi criada para a entrega da "Lista de Exercícios 4 - Página de Perfil Pessoal", desenvolvido em HTML5, CSS3 e implementação em JavaScript.
 
 ## 📋 Pré-requisitos
 
@@ -33,9 +33,10 @@ Os arquivos estão localizados na pasta do projeto (lista04).
 
 ```bash
 /
-├── perfil.html         # Arquivo HTML5 do exercício
-├── style.css           # Arquivo CSS3 do exercício
-├── perfil.jpg          # Foto de Perfil do site 
+├── perfil.html         # código HTML5 da atividade
+├── style.css           # Responsável por definir o estilo visual e o layout.
+├── perfil.jpg          # Foto de Perfil no site
+├── script.js           # Adicionar funcionalidades dinâmicas e interativas.
 ├── favicon.ico         # Ícone associado ao site do exercício
 └── README.md           # Documentação do projeto
 ```
