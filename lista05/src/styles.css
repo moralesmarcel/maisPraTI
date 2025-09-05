@@ -1,0 +1,93 @@
+/* Estilos customizados usando Tailwind via @apply.*/
+
+.app-container {
+  @apply min-h-screen text-gray-800 dark:text-gray-100 bg-gray-50 dark:bg-gray-900;
+}
+
+.app-header {
+  @apply sticky top-0 z-40 h-[var(--header-height)] bg-white/80 dark:bg-gray-950/80 backdrop-blur border-b border-gray-200 dark:border-gray-800;
+}
+
+.nav-inner {
+  @apply max-w-6xl mx-auto px-4 h-full flex items-center justify-between;
+}
+
+.brand {
+  @apply text-xl font-semibold tracking-tight;
+}
+
+.nav-links {
+  @apply flex items-center gap-3;
+}
+
+.btn {
+  @apply inline-flex items-center gap-2 px-4 py-2 rounded-xl shadow-sm border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition;
+}
+
+.btn-primary {
+  @apply bg-rose-600 text-white border-rose-600 hover:bg-rose-700 hover:border-rose-700;
+}
+
+.search-section {
+  @apply max-w-6xl mx-auto px-4 py-6;
+}
+
+.input {
+  @apply w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2 outline-none focus:ring-2 focus:ring-rose-200;
+}
+
+.grid-results {
+  @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mt-6;
+}
+
+.card {
+  @apply rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 shadow-sm hover:shadow-md transition;
+}
+
+.card-body {
+  @apply p-3;
+}
+
+.card-title {
+  @apply text-sm font-semibold leading-tight line-clamp-2;
+}
+
+.card-meta {
+  @apply text-xs text-gray-500 dark:text-gray-400;
+}
+
+.badge {
+  @apply text-[10px] px-2 py-0.5 rounded-full border border-gray-300 dark:border-gray-700;
+}
+
+.pagination {
+  @apply mt-8 flex items-center justify-center gap-2;
+}
+
+.pagination button {
+  @apply btn;
+}
+
+.pagination .active {
+  @apply btn-primary;
+}
+
+.detail-wrapper {
+  @apply max-w-5xl mx-auto px-4 py-8 grid md:grid-cols-[200px,1fr] gap-6;
+}
+
+.poster {
+  @apply w-full rounded-xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900;
+}
+
+.detail-card {
+  @apply card;
+}
+
+.detail-content {
+  @apply card-body space-y-2;
+}
+
+.favorite-empty {
+  @apply text-center text-sm text-gray-500 dark:text-gray-400 py-10;
+}
