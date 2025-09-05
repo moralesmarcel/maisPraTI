@@ -1,6 +1,6 @@
 # 📇 Lista de Exercícios 5 - Consumo de API com ReactJS
 
-Esta pasta do repositório foi criada para a entrega da "Lista de Exercícios 5 (Atividade 5) - Consumo de API com ReactJS", desenvolvido em React + Vite + Tailwind.
+Esta pasta do repositório foi criada para a entrega da "Lista de Exercícios 5 (Atividade 5) - Consumo de API com ReactJS", desenvolvido em React + Vite + Tailwind.   Onde foi criada uma aplicação em React que consume a API do OMDb para permitir que usuários busquem filmes, vejam detalhes e montem uma lista de favoritos.
 
 ## 📋 Pré-requisitos
 
