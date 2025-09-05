@@ -71,4 +71,3 @@ Os arquivos estão localizados na pasta do projeto (lista05).
 * O *dark mode* usa a estratégia `class` do Tailwind — a classe `dark` é aplicada no `<html>`.
 * Os componentes possuem comentários explicando as partes principais do código.
 * Este projeto é de código aberto e pode ser utilizado livremente.
-* Você pode editar os arquivos diretamente para testar variações dos exercícios.
