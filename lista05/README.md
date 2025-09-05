@@ -38,7 +38,7 @@ Os arquivos estão localizados na pasta do projeto (lista05).
    ```
    Abra a URL informada no terminal (normalmente `http://localhost:5173`).
 
-## 📂 Estrutura dos arquivos da pasta _lista03_
+## 📂 Estrutura dos arquivos da pasta _lista05_
 
 ```bash
 /
