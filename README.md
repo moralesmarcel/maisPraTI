@@ -26,6 +26,10 @@ Contém a _Lista de Exercícios 3 - Desenvolvimento Web Básico_, que fazem part
 
 Contém a _Lista de Exercícios 4 - Página de Perfil Pessoal_, que fazem parte das atividades que contemplam o aprendizado de linguagens como HTML, CSS e Javascript.
 
+### 📁 lista05
+
+Contém a _Lista de Exercícios 5 - Consumo de API com ReactJS, que fazem parte das atividades que contemplam o aprendizado como ReactJS, Vite e Tailwindcss. 
+
 ---
 ## ⚙️ Instalação
 
