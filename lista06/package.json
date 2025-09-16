@@ -1,0 +1,15 @@
+{
+  "name": "mini-loja",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:01-css-global": "cd 01-css-global && npm install && npm run dev",
+    "dev:02-css-modules": "cd 02-css-modules && npm install && npm run dev",
+    "dev:03-tailwind": "cd 03-tailwind && npm install && npm run dev",
+    "dev:04-styled": "cd 04-styled && npm install && npm run dev",
+    "build:01-css-global": "cd 01-css-global && npm run build",
+    "build:02-css-modules": "cd 02-css-modules && npm run build",
+    "build:03-tailwind": "cd 03-tailwind && npm run build",
+    "build:04-styled": "cd 04-styled && npm run build"
+  }
+}

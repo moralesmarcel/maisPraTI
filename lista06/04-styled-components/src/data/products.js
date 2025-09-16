@@ -1,0 +1,58 @@
+const products = [
+  {
+    id: 1,
+    title: "Camiseta Running",
+    price: 109.90,
+    rating: 4,
+    tag: "Novo",
+    image: "/images/camiseta.jpg",
+    buttonVariant: "solid",
+  },
+  {
+    id: 2,
+    title: "Tênis Running",
+    price: 1199.90,
+    rating: 5,
+    tag: "Promo",
+    image: "/images/tenis.jpg",
+    buttonVariant: "outline",
+  },
+  {
+    id: 3,
+    title: "Short de compressão",
+    price: 229.90,
+    rating: 4,
+    tag: "",
+    image: "/images/bermuda.jpg",
+    buttonVariant: "ghost",
+  },
+  {
+    id: 4,
+    title: "Relógio GPS",
+    price: 1899.9,
+    rating: 5,
+    tag: "Promo",
+    image: "/images/relogio.jpg",
+    buttonVariant: "outline",
+  },
+  {
+    id: 5,
+    title: "Boné Trucker",
+    price: 149.90,
+    rating: 4,
+    tag: "",
+    image: "/images/bone.jpg",
+    buttonVariant: "ghost",
+  },
+  {
+    id: 6,
+    title: "Óculos de Sol",
+    price: 399.90,
+    rating: 3,
+    tag: "Promo",
+    image: "/images/oculos.jpg",
+    buttonVariant: "solid",
+  },
+];
+
+export default products;

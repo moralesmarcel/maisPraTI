@@ -1,0 +1,35 @@
+.btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn:hover:not(:disabled) {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px var(--color-shadow);
+}
+
+.btnSolid {
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+}
+
+.btnOutline {
+  background: none;
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+}
+
+.btnGhost {
+  background: none;
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+}

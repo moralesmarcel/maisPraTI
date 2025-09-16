@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Components layer: reconstituímos os estilos principais com @apply para ficar parecido com CSS Global */
+@layer components {
+  .navbar {
+    @apply sticky top-0 z-50 flex justify-between items-center px-4 py-3 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700;
+  }
+
+  .card {
+    @apply bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg overflow-hidden transition-transform transform hover:-translate-y-1 hover:shadow-card;
+  }
+
+  .card-image img {
+    @apply w-full aspect-square object-cover;
+  }
+
+  .tag {
+    @apply absolute top-2 left-2 bg-primary text-white text-xs px-2 py-0.5 rounded;
+  }
+
+  .card-body {
+    @apply p-4 flex flex-col gap-2;
+  }
+
+  .card-title {
+    @apply font-medium text-sm line-clamp-2;
+  }
+
+  .card-meta {
+    @apply flex justify-between text-xs;
+  }
+
+  .btn {
+    @apply px-4 py-2 rounded text-sm font-medium transition transform disabled:opacity-50;
+  }
+  .btn-solid { @apply bg-primary text-white; }
+  .btn-outline { @apply border border-gray-300 dark:border-gray-600 text-gray-900 dark:text-gray-100; }
+  .btn-ghost { @apply border border-primary text-primary bg-transparent; }
+
+  /* skeleton custom */
+  .skeleton {
+    @apply bg-skeleton dark:bg-skeleton-dark animate-pulse rounded-md;
+  }
+
+  .footer {
+    @apply text-center py-4 border-t border-gray-200 dark:border-gray-700;
+  }
+}
+
+/* small helper for container spacing */
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}

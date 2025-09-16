@@ -1,0 +1,19 @@
+.footer {
+  text-align: center;
+  padding: 16px;
+  font-size: 0.875rem;
+  color: var(--color-text);
+  border-top: 1px solid var(--color-border);
+  margin-top: auto;
+}
+
+.footerLink {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footerLink:hover,
+.footerLink:focus {
+  text-decoration: underline;
+}
