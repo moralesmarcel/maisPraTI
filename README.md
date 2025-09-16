@@ -30,6 +30,11 @@ Contém a _Lista de Exercícios 4 - Página de Perfil Pessoal_, que fazem parte 
 
 Contém a _Lista de Exercícios 5 - Consumo de API com ReactJS_, que fazem parte das atividades que contemplam o aprendizado em ReactJS, Vite e Tailwindcss. 
 
+### 📁 lista06
+
+Contém a _Lista de Exercícios 6 - Estilização em React “Mini Loja”_, que fazem parte das atividades que contemplam o aprendizado em ReactJS, Vite e Tailwindcss. 
+
+
 ---
 ## ⚙️ Instalação
 
