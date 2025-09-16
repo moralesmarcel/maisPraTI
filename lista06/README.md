@@ -10,7 +10,7 @@ Este repositório contém a aplicação Mini Loja, desenvolvida em React + Vite,
 Cada versão possui a mesma lógica e interface, mudando apenas a forma de aplicar os estilos. 
 
 
-
+---
 ## ✏️ Pré-requisitos
 
 Antes de começar, instale em sua máquina:
@@ -20,7 +20,7 @@ Antes de começar, instale em sua máquina:
 * **[npm](https://www.npmjs.com/)**
 
 
-
+---
 ## ⚙️ Instalação e execução
 
 Cada versão é independente. 
@@ -67,9 +67,11 @@ Clone somente esta pasta do repositório. Caso tenha optado clonar todo o reposi
        Abra a URL informada no terminal (normalmente `http://localhost:5173`).
 
 
-
+---
 ## 📑 Observações
 
   * Certifique-se de estar no diretório correto ao rodar os arquivos.
   * Os componentes possuem comentários explicando as partes principais do código.
   * Este projeto é de código aberto e pode ser utilizado livremente.
+
+
