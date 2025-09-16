@@ -23,39 +23,48 @@ Antes de começar, instale em sua máquina:
 
 ## ⚙️ Instalação e execução
 
-Cada versão é independente. Entre na pasta da versão desejada e execute os comandos:
+Cada versão é independente. 
+Clone somente esta pasta do repositório. Caso tenha optado clonar todo o repositório maisPraTI, siga para o passo 2 da instalação.
 
-1. CSS Global
-    ```bash
-    cd 01-css-global
-    npm install
-    npm run dev
-    ```
-     Abra a URL informada no terminal (normalmente `http://localhost:5173`).
+   ```bash
+    git clone -n https://github.com/moralesmarcel/maisPraTI.git
+    cd maisPraTI
+    git checkout HEAD lista06
+   ```
 
-2. CSS Modules
-    ```bash
-    cd 02-css-modules
-    npm install
-    npm run dev
-    ```
-     Abra a URL informada no terminal (normalmente `http://localhost:5173`).
+* Entre na pasta da versão desejada e execute os comandos:
+
+    1. CSS Global
+        ```bash
+        cd 01-css-global
+        npm install
+        npm run dev
+        ```
+        Abra a URL informada no terminal (normalmente `http://localhost:5173`).
+
+    2. CSS Modules
+        ```bash
+        cd 02-css-modules
+        npm install
+        npm run dev
+        ```
+        Abra a URL informada no terminal (normalmente `http://localhost:5173`).
    
-3. Tailwind CSS
-    ```bash
-    cd 03-tailwind
-    npm install
-    npm run dev
-    ```
-     Abra a URL informada no terminal (normalmente `http://localhost:5173`).
+    3. Tailwind CSS
+        ```bash
+        cd 03-tailwind
+        npm install
+        npm run dev
+        ```
+        Abra a URL informada no terminal (normalmente `http://localhost:5173`).
    
-4. Styled Components
-    ```bash
-    cd 04-styled-components
-    npm install
-    npm run dev
-    ```
-     Abra a URL informada no terminal (normalmente `http://localhost:5173`).
+    4. Styled Components
+        ```bash
+        cd 04-styled-components
+        npm install
+        npm run dev
+        ```
+       Abra a URL informada no terminal (normalmente `http://localhost:5173`).
 
 
 
