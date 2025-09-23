@@ -14,6 +14,19 @@ Antes de começar, instale em sua máquina:
 
 
 ---
+## ⚙️ Instalação e execução
+
+Cada versão é independente. 
+Clone somente esta pasta do repositóri usando o comando a seguir.
+
+   ```bash
+    git clone -n https://github.com/moralesmarcel/maisPraTI.git
+    cd maisPraTI
+    git checkout HEAD lista07
+   ```
+
+
+---
 ## ▶️ Como rodar no IntelliJ IDEA
 
 1. Abra o **IntelliJ IDEA**.
@@ -22,8 +35,7 @@ Antes de começar, instale em sua máquina:
 4. Localize a classe `Main.java` na aba lateral.
 5. Clique com o botão direito e escolha **Run 'Main.main()'**.
 
-obs:
-Cada exercício foi implementado como um projeto separado, com sua própria `Main.java` para execução.
+ _Obs_: Cada exercício foi implementado como um projeto separado, com sua própria `Main.java` para execução.
 
 
 ---
