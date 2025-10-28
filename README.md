@@ -37,6 +37,9 @@ Contém a _Lista de Exercícios 6 - Estilização em React “Mini Loja”_, que
 ### 📁 lista07
 Contém a _Lista de Exercícios 7 - Java Orientado a Objetos_, que fazem parte das atividades que contemplam o aprendizado em Java.
 
+### 📁 lista08
+Contém a _Lista de Exercícios 8 - Modelando, Construindo e Pesquisando_, que fazem parte das atividades que contemplam o aprendizado em SQL, onde foram abordados comandos para modelagem, construção e consulta de banco de dados.
+
 ---
 ## ⚙️ Instalação
 
